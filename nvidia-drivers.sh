@@ -23,7 +23,7 @@ else
 		# for LXC containers
 		OPTIONS="${OPTIONS} --no-kernel-module"
 fi
-o
+
 ./$FILENAME $OPTIONS
 echo "Success! Rebooting.." && sleep 2
 reboot
